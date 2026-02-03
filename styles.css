@@ -1,7 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Sets the font to Arial, or any sans-serif if Arial is missing */
 
-    h1 {
-    color: black;
-    /* Sets text color to a black shade */
+    background: radial-gradient(circle, white, lightgray);
+    /* Creates a background that starts white at the center 
+       and fades to light gray at the edges */
+}
+h1 {
+    color: darkblue;
+    /* Sets text color to a dark blue shade */
 
     padding: 8px;
     /* Adds 8 pixels of space inside the element around the text */
@@ -13,9 +20,9 @@
        - 6px blur radius (softness)
        - gray color */
 }
-    p {
-    color: #F2A68D;
-    /* Sets lyric text color to peach */
+p {
+    color: white;
+    /* Sets lyric text color to white */
 
     width: 350px;
     /* Restricts the width of lyric lines to 350 pixels */
@@ -26,9 +33,9 @@
     padding: 10px;
     /* Adds breathing room inside the paragraph box */
 
-    background: linear-gradient(to bottom right, #F2A68D,#F3DCD4 );
+    background: linear-gradient(to bottom right, darkblue, skyblue);
     /* Creates a gradient background flowing from top-left to bottom-right,
-       starting with peach and ending with light pink */
+       starting with darkblue and ending with skyblue */
 
     box-shadow: 5px 5px 6px gray;
     /* Adds a shadow behind the paragraph box for depth */
@@ -36,6 +43,7 @@
     border-radius: 5px;
     /* Rounds the corners of the box by 5 pixels */
 }
+        
 /* Selects ONLY the 5th paragraph element */
 p:nth-child(5) {
     background: revert;
@@ -48,5 +56,4 @@ p:nth-child(5) {
 a {
     font-size: 12px;
     /* Makes the link text smaller */
-}
-        
+}    
