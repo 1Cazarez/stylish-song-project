@@ -1,11 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    /* Sets the font to Arial, or any sans-serif if Arial is missing */
 
-    background: radial-gradient(circle, #F2A68D, #F3DCD4);
-    /* Creates a background that starts peach at the center 
-       and fades to light pink at the edges */
-}
     h1 {
     color: black;
     /* Sets text color to a black shade */
